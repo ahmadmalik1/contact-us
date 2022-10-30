@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(218, 218, 218);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+}
+h3{
+    font-family: 'Lucida Sans';
+    padding: 0px 10px;
+    border-left: 5px solid rgb(67, 182, 228);
+}
+form > input, textarea{
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+}
+form > input{
+    width: 370px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+}
+form > textarea{
+    width: 370px;
+    padding: 10px;
+    margin-top: 10px;
+}
+form > input, textarea{
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(233, 232, 232);
+    border-bottom: 3px solid rgb(67, 182, 228);
+}
+form > button{
+    border: none;
+    text-align: center;
+    width: 390px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(67, 182, 228);
+    padding: 10px 20px;
+}
+form > button:hover{
+    background-color: rgb(56, 160, 201);
+}
